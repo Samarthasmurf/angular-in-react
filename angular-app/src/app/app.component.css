@@ -1,0 +1,13 @@
+
+.angular-app-container {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+.row-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

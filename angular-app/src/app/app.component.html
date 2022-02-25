@@ -1,0 +1,27 @@
+<div class="angular-app-container">
+  <div class="row-group">
+    <h6 class="field-name">First Name</h6>
+    <div class="field-value">{{ firstName }}</div>
+  </div>
+  <div class="row-group">
+    <h6 class="field-name">Last Name</h6>
+    <div class="field-value">{{ lastName }}</div>
+  </div>
+  <div class="row-group">
+    <h6 class="field-name">Phone Number</h6>
+    <div class="field-value">{{ phoneNumber }}</div>
+  </div>
+  <div class="row-group">
+    <h6 class="field-name">Email</h6>
+    <div class="field-value">{{ email }}</div>
+  </div>
+  <select
+    formControlName="website"
+    class="form-control"
+    (change)="changeWebsite($event)"
+  >
+    <option disabled>Select Status</option>
+    <option value="Approved">Approved</option>
+    <option value="Rejected">Rejected</option>
+  </select>
+</div>
